@@ -39,8 +39,18 @@ def calculate(ope1, oper, ope2):
             return
     return res
 
-def display_result(op1, ope, ope2, res):
-    print(str(op1) + " " + ope + " " + str(ope2) + " = " + str(res))
 
+def display_result(op1, ope, ope2, res):
+    print(float(op1) + " " + ope + " " + float(ope2) + " = " + float(res))
+
+
+# Fonction puissance
+def maFonction(n):
+    somme = 1
+    for count in range(int(n)):
+        somme = somme * 2
+    return somme
+
+print(maFonction(3))
 # Call the main function to run the program
 main()
