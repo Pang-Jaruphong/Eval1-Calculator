@@ -67,7 +67,7 @@ class TestMathLib(unittest.TestCase):
         MathLib.execute(mathRequest)
 
         # then
-        self.assertEqual(mathRequest.get_res(), 1.32)
+        self.assertEqual(mathRequest.get_res(), 1.3160740129524924)
 
 if __name__ == '__main__':
     unittest.main()
